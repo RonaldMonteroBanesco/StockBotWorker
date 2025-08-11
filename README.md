@@ -103,14 +103,3 @@ If a stock code is invalid or the Stooq API is unreachable, the bot will:
   ```
 
 ---
-
-## 📄 License
-
-This project is open-source. You are free to use and modify it.
-"""
-
-# Save README.md file
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_content)
-
-readme_path
